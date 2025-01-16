@@ -15,7 +15,7 @@ class bank {
       this.am -= am;
       console.log("Amount retrieved successfully!");
       console.log("Remaining amount: ", this.am);
-    } else console.log("Not enough money to withdraw!");
+    } else console.log("Not enough money to withdraw!!!");
   }
 
   check() {
@@ -27,4 +27,3 @@ let obj = new bank("Munna", 2000);
 obj.deposit(1000);
 obj.retrieve(1000);
 obj.check();
-
