@@ -1,4 +1,5 @@
-// Q1.
+// Practice Questions
+//Q1.
 const dis = (price, dis = 10) => {
   return (price * (100 - dis)) / 100;
 };
