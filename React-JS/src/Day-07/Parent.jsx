@@ -9,6 +9,7 @@ function Parent() {
     age: 49,
     fav: "Serial Killer",
   };
+  //Destructuring
   const { name, age } = obj;
   return (
     <div>
