@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(143, 184, 221);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formdata {
+  height: 400px;
+  width: 60%;
+  background-color: rgba(10, 44, 92, 0.128);
+  margin: 5rem;
+  padding-left: 3rem;
+  padding-top: 2px;
+  border-radius: 3px solid rgb(2, 2, 46);
+}
+
+.submit {
+  width: 80%;
+  margin-right: 2rem;
+  border-radius: 3px;
+  height: 35px;
+}
+
+.header {
+  margin-left: 2.5rem;
+}
