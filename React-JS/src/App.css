@@ -25,3 +25,7 @@
 .header {
   margin-left: 2.5rem;
 } */
+
+body {
+  display: flex;
+}
