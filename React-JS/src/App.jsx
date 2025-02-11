@@ -1,4 +1,4 @@
-// import "./App.css";
+import "./App.css";
 // import ClassHead from "./Day-06/ClassHead";
 // import Parent from "./Day-07/Parent";
 // import Bank from "./Day-07/Bank";
@@ -23,18 +23,27 @@
 // import FormuseRef from "./Day-15/FormuseRef";
 // import PrevvalueuseRef from "./Day-15/PrevvalueuseRef";
 
-import SignUpForm from "./Day-15/SignUpForm";
+//import SignUpForm from "./Day-15/SignUpForm";
 
-//
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./Day-16/Pages/Home";
+import About from "./Day-16/Pages/About";
+import Contact from "./Day-16/Pages/Contact";
+import Practice from "./Day-16/Pages/Practice";
+
+import Blog from "./Day-16/Blog/blog";
+import Post from "./Day-16/Blog/Post";
+// import Route from "./Day-17/Route";
+
 function App() {
   return (
     <>
-      {/* <ClassHead />
-      <Parent />
-      <Bank />
-      <Callback /> */}
-      {/* <UseSt />
-      <UseEff /> */}
+      {/* {<ClassHead /> */}
+      {/* <Parent /> */}
+      {/* <Bank /> */}
+      {/* <Callback / } */}
+      {/* { <UseSt /> } */}
+      {/* {<UseEff />} */}
       {/* <Ques /> */}
       {/* <Visula /> */}
       {/* <Usecont /> */}
@@ -51,7 +60,41 @@ function App() {
       {/* <PrevvalueuseRef /> */}
       {/* <FormuseRef /> */}
       {/* <CondGreeting /> */}
-      <SignUpForm />
+      {/* <SignUpForm /> */}
+      {/* <Practice /> */}
+
+      {/* Router presented here */}
+      {/* <Router> */}
+      {/* <nav className="nav"> */}
+      {/* <Link to="/">Home</Link> */}
+      {/* <Link to="/About">About Us</Link> */}
+      {/* <Link to="/Contact">Contact Us</Link> */}
+      {/* </nav> */}
+
+      {/* </nav>
+      {/* What component will load when the nav link clicked */}
+      {/* <Routes> */}
+      {/* <Route path="/" element={<Home />}></Route> */}
+      {/* <Route path="/About" element={<About />}></Route> */}
+      {/* <Route path="/Contact" element={<Contact />}></Route> */}
+      {/* </Routes> */}
+      {/* </Router> */}
+
+      {/* <Router> */}
+      {/* <nav> */}
+      {/* <Link to="/">Home</Link> */}
+      {/* <Link to="/about">About Us</Link> */}
+      {/* <Link to="/blog">Blog</Link> */}
+      {/* </nav> */}
+      {/* <Routes> */}
+      {/* <Route path="/" element={<Home />}></Route> */}
+      {/* <Route path="/about" element={<About />}></Route> */}
+      {/* <Route path="/blog" element={<Blog />}></Route> */}
+      {/* <Route path="/blog/:postID" element={<Post />}></Route> */}
+      {/* </Routes> */}
+      {/* </Router> */}
+
+      {/* <Route /> */}
     </>
   );
 }

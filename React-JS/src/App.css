@@ -25,7 +25,26 @@
 .header {
   margin-left: 2.5rem;
 } */
+/*  */
+/* body { */
+/* display: flex; */
+/* } */
 
-body {
+.nav {
+  height: 40px;
+  width: 100%;
+  background-color: black;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: red;
+  border-bottom: 3px solid red;
 }
