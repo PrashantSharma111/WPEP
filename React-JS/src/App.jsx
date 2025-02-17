@@ -10,7 +10,7 @@ import "./App.css";
 // import Usecont from "./Day-11/Usecont";
 // import Greet from "./Day-12/Greet";
 // import Greet, { UserGreet } from "./Day-12/Export";
-// import Portf from "./Day-13/Samp-Port/Portf";
+import Portf from "./Day-13/Samp-Port/Portf";
 // import Header from "./Day-13/React-Boot-Port/Header";
 // import Body from "./Day-13/React-Boot-Port/Body";
 // import Footer from "./Day-13/React-Boot-Port/Footer";
@@ -33,11 +33,15 @@ import Practice from "./Day-16/Pages/Practice";
 
 import Blog from "./Day-16/Blog/blog";
 import Post from "./Day-16/Blog/Post";
+import DropDown from "./Day-18/DropDown";
+import UseCont from "./Day-18/UseCont";
+import UseMemoExample from "./Day-18/UseMemoExample";
 // import Route from "./Day-17/Route";
 
 function App() {
   return (
     <>
+      <Portf />
       {/* {<ClassHead /> */}
       {/* <Parent /> */}
       {/* <Bank /> */}
@@ -95,6 +99,9 @@ function App() {
       {/* </Router> */}
 
       {/* <Route /> */}
+
+      {/* <DropDown /> */}
+      {/* <UseMemoExample /> */}
     </>
   );
 }
