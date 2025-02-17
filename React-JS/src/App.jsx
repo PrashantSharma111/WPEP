@@ -24,19 +24,19 @@ import Portf from "./Day-13/Samp-Port/Portf";
 // import PrevvalueuseRef from "./Day-15/PrevvalueuseRef";
 
 //import SignUpForm from "./Day-15/SignUpForm";
-
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from "./Day-16/Pages/Home";
-import About from "./Day-16/Pages/About";
-import Contact from "./Day-16/Pages/Contact";
-import Practice from "./Day-16/Pages/Practice";
-
-import Blog from "./Day-16/Blog/blog";
-import Post from "./Day-16/Blog/Post";
-import DropDown from "./Day-18/DropDown";
-import UseCont from "./Day-18/UseCont";
-import UseMemoExample from "./Day-18/UseMemoExample";
-// import Route from "./Day-17/Route";
+// 
+// import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+// import Home from "./Day-16/Pages/Home";
+// import About from "./Day-16/Pages/About";
+// import Contact from "./Day-16/Pages/Contact";
+// import Practice from "./Day-16/Pages/Practice";
+// 
+// import Blog from "./Day-16/Blog/blog";
+// import Post from "./Day-16/Blog/Post";
+// import DropDown from "./Day-18/DropDown";
+// import UseCont from "./Day-18/UseCont";
+// import UseMemoExample from "./Day-18/UseMemoExample";
+//import Route from "./Day-17/Route";
 
 function App() {
   return (
